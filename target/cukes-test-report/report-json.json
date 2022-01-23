@@ -1,0 +1,553 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1220547300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user navigated to the site",
+            "match": {
+              "location": "stepDefs.NavigationSteps.the_user_navigated_to_the_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T17:34:40.174Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1636696500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Filter behaviour",
+        "description": "",
+        "id": "filtering-behaviour;filter-behaviour",
+        "after": [
+          {
+            "result": {
+              "duration": 669299900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1906414900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on \"Vitamins \u0026 Supplements\" from main navigation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vitamins \u0026 Supplements",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.HomePageSteps.the_user_clicks_on_something_from_main_navigation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3463041800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks on \"Vitamins\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vitamins",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.VitAndSupSteps.the_user_clicks_on_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1266152900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user clicks on \"Brand\" filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brand",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.VitaminsSteps.the_user_clicks_on_xxx_title(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136634500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user selects Vitabiotics filter option",
+            "match": {
+              "location": "stepDefs.VitaminsSteps.the_user_selects_vitabiotics_filter_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3274653200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user able to see only Vitabiotics products",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vitabiotics",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefs.SearchSteps.the_user_able_to_see_some_products(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@filters"
+          }
+        ]
+      }
+    ],
+    "name": "Filtering behaviour",
+    "description": "",
+    "id": "filtering-behaviour",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureFiles/filter.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1063598100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user navigated to the site",
+            "match": {
+              "location": "stepDefs.NavigationSteps.the_user_navigated_to_the_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T17:34:53.805Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1115953900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "search for one product",
+        "description": "",
+        "id": "searching-for-products-on-holland-\u0026-barrett-site;search-for-one-product",
+        "after": [
+          {
+            "result": {
+              "duration": 704132200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3555801300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user search for Honey",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Honey",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.SearchSteps.the_user_search_for_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3310356100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user able to see only Honey products",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Honey",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefs.SearchSteps.the_user_able_to_see_some_products(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1451612800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user navigated to the site",
+            "match": {
+              "location": "stepDefs.NavigationSteps.the_user_navigated_to_the_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T17:35:03.560Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1101176400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "search for multiple products",
+        "description": "",
+        "id": "searching-for-products-on-holland-\u0026-barrett-site;search-for-multiple-products;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1270805400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3528396700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user search for Multivitamin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Multivitamin",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.SearchSteps.the_user_search_for_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3304427200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user able to see only Multivitamin products",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Multivitamin",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefs.SearchSteps.the_user_able_to_see_some_products(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1611253700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user navigated to the site",
+            "match": {
+              "location": "stepDefs.NavigationSteps.the_user_navigated_to_the_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T17:35:14.219Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1113999900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "search for multiple products",
+        "description": "",
+        "id": "searching-for-products-on-holland-\u0026-barrett-site;search-for-multiple-products;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 698647500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3663854000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user search for Herbal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Herbal",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.SearchSteps.the_user_search_for_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3302486400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user able to see only Herbal products",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Herbal",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefs.SearchSteps.the_user_able_to_see_some_products(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1629218700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user navigated to the site",
+            "match": {
+              "location": "stepDefs.NavigationSteps.the_user_navigated_to_the_site()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-23T17:35:24.613Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1086860000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "search for invalid product",
+        "description": "",
+        "id": "searching-for-products-on-holland-\u0026-barrett-site;search-for-invalid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 721651800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefs.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3100283200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user search for !\"£$%^\u0026",
+            "match": {
+              "arguments": [
+                {
+                  "val": "!\"£$%^\u0026",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefs.SearchSteps.the_user_search_for_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60836900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "validation message shown on the screen",
+            "match": {
+              "location": "stepDefs.SearchSteps.validation_message_shown_on_the_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54853100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "There is search box to search again",
+            "match": {
+              "location": "stepDefs.SearchSteps.there_is_search_box_to_search_again()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          }
+        ]
+      }
+    ],
+    "name": "Searching for Products on Holland \u0026 Barrett site",
+    "description": "",
+    "id": "searching-for-products-on-holland-\u0026-barrett-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureFiles/search.feature",
+    "tags": []
+  }
+]

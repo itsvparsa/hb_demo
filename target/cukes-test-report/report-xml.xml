@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="51.206">
+    <testcase classname="Filtering behaviour" name="Filter behaviour" time="13.623">
+        <system-out><![CDATA[Given the user navigated to the site........................................passed
+And the user clicks on "Vitamins & Supplements" from main navigation........passed
+And the user clicks on "Vitamins"...........................................passed
+And the user clicks on "Brand" filter.......................................passed
+When the user selects Vitabiotics filter option.............................passed
+Then the user able to see only Vitabiotics products.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Searching for Products on Holland &amp; Barrett site" name="search for one product" time="9.754">
+        <system-out><![CDATA[Given the user navigated to the site........................................passed
+When the user search for Honey..............................................passed
+Then the user able to see only Honey products...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Searching for Products on Holland &amp; Barrett site" name="search for multiple products" time="10.659">
+        <system-out><![CDATA[Given the user navigated to the site........................................passed
+When the user search for Multivitamin.......................................passed
+Then the user able to see only Multivitamin products........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Searching for Products on Holland &amp; Barrett site" name="search for multiple products 2" time="10.391">
+        <system-out><![CDATA[Given the user navigated to the site........................................passed
+When the user search for Herbal.............................................passed
+Then the user able to see only Herbal products..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Searching for Products on Holland &amp; Barrett site" name="search for invalid product" time="6.655">
+        <system-out><![CDATA[Given the user navigated to the site........................................passed
+When the user search for !"£$%^&............................................passed
+Then validation message shown on the screen.................................passed
+And There is search box to search again.....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
