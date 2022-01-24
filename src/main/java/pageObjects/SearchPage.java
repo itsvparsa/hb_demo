@@ -20,7 +20,11 @@ public class SearchPage extends BasePage {
 
     public boolean checkSearchButtonEnabled() {
         webUtils.waitTillElementIsVisible(searchButton);
-        return searchButton.isEnabled();
+        try {
+            return searchButton.isEnabled();
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     public void clickOnSearchButton() {

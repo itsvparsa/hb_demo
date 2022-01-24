@@ -3,5 +3,5 @@
 *.iml
 *.ipr
 *.iws
-target
+/.target/
 .m2/
