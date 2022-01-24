@@ -9,6 +9,7 @@ public class GenericPage extends BasePage {
     WebElement cookieAcceptButton;
 
     public void acceptCookie() {
+        webUtils.pause(1);
         webUtils.waitTillElementIsVisible(cookieAcceptButton);
         cookieAcceptButton.click();
     }

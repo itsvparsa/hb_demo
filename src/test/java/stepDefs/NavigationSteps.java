@@ -2,6 +2,7 @@ package stepDefs;
 
 import io.cucumber.java.en.Given;
 import pageObjects.GenericPage;
+import utilities.WebUtils;
 
 public class NavigationSteps extends BaseSteps{
 
@@ -14,6 +15,7 @@ public class NavigationSteps extends BaseSteps{
     @Given("^the user navigated to the site$")
     public void the_user_navigated_to_the_site() {
         launchSite();
+        WebUtils.waitUntilPageIsLoaded();
         System.out.println("Current URL: " + driver().getCurrentUrl());
         System.out.println("Current page title: " + driver().getTitle());
         closeCookieBar();
